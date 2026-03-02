@@ -1,0 +1,21 @@
+what is Vue? Vue is an opensource, progressive javascript framework that is used to build user interfaces and Single Page applications (SPA's).
+
+
+why use vue?
+easy to use/ implement and learn.
+Performance - lightweight since it doesn't consume too much resources
+
+
+Official documentation? vuejs.org
+
+
+Practical
+Use Vue 2.7.7
+
+Vue syntaxes;
+D.O.M - Document Object Manipulation.
+
+
+{{}} interpolation [ inserts reactive data into the DOM ]
+V-model [ two way data binding ]
+V-for [ used for looping in vue ]
