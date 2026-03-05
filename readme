@@ -19,3 +19,17 @@ D.O.M - Document Object Manipulation.
 {{}} interpolation [ inserts reactive data into the DOM ]
 V-model [ two way data binding ]
 V-for [ used for looping in vue ]
+
+
+3/5/26
+methods are functions used inside of a class.
+(function --> a block of code that performs a certain task when called.)
+
+---this - a keyword used inside a class i.e Vue, so that it calls on other variables used in the class.
+
+**asynchronous and synchronous operations
+**axios --> a javascript library used to send and receive requests.
+
+--Flask CORS - a python library that helps applications communicate to one another via different ports.
+
+cross-origin resource sharing
