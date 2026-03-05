@@ -73,11 +73,13 @@
     </nav>
 
     <!--body that is the dom **vue.js-->
-    <div id="app" v-model="name">
+    <div id="app">
       <p>Hello, My name is {{name}}</p>
       <ul v-for="item in shopping_list">
-        <li>{{item}}</li>
+        <li>{{item}}</li>       
       </ul>
+       <p v-if="showMessage">User id is logged in</p>
+      <p v-else>User id is not logged in</p>
     </div>
 
     <script
@@ -95,13 +97,15 @@
 
     <script>
       new Vue({
-          el: "#app",
-          data: {
-              name: "Dyan",
-              // email: "",
-              shopping_list: ["Milk", "Bread", "Laptop"]
-          }       
-      })
+        el: "#app",
+        data: {
+          name: "Dyan",
+          // email: "",
+          shopping_list: ["Milk", "Bread", "Laptop"],
+          showMessage: true,
+        },
+        methods: {},
+      });
     </script>
   </body>
 </html>
